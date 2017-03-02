@@ -41,7 +41,7 @@ Returns the current gasCounter
 **Returns**
 `edgeReference` **i32ref**
 
-## send_message
+## sendMessage
 **Parameters**
 
 - `portRef` **i32ref**  the port to send the message on. The `portRef` is an edge reference
@@ -50,6 +50,6 @@ on the current ports vertex
 
 **Returns**
 
-## get_current_message
+## getCurrentMessage
 **Returns**
 - `messageRef` **i32ref** a reference to a vertex that is the current message being ran
