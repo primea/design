@@ -32,12 +32,6 @@ Returns the current gasCounter
 **Returns**
 `vertexRefernce` **i32ref**
 
-## createPort
-**Parameters**
-- `link` **i32ref**
-- `nameDataOffset` **i32ptr** 
-- `nameDatalength` **i32** 
-
 **Returns**
 `edgeReference` **i32ref**
 
