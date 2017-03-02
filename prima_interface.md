@@ -32,9 +32,6 @@ Returns the current gasCounter
 **Returns**
 `vertexRefernce` **i32ref**
 
-**Returns**
-`edgeReference` **i32ref**
-
 ## sendMessage
 **Parameters**
 
