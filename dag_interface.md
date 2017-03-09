@@ -1,8 +1,8 @@
 # Webassembly DAG interfaces
 ### related
-https://github.com/ipld/specs/issues/35
-https://github.com/ipld/specs/issues/38
-https://github.com/ipld/ipld/issues/18
+https://github.com/ipld/specs/issues/35  
+https://github.com/ipld/specs/issues/38  
+https://github.com/ipld/ipld/issues/18  
 
 ## Overview
 This note presents an initial Webassembly interface for generic Merkle DAGs. There are two interfaces proposed here. 
