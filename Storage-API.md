@@ -1,4 +1,4 @@
-# Storage API (simplified)
+# Storage API
 The Storage API is the only way that data is persistently saved between executions of a contract. Storage has several demands
 
 1. should work well to implement Ethereum  key/value storage
