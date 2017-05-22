@@ -24,7 +24,12 @@ For example in psedo-code, creation of a new container
 // creates a new container which has one channel.
 var port = interface.ports.create('container_type')
 
+// to send message to a port it first must be bound
+interface.ports.bind('name', port)
+
 // To access the the entry port from within a container
 var entryPort = interface.ports.entryPort
 
+// Acccess other ports by the name to which they where bound to
+port = interface.port.get('name')
 ```
