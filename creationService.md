@@ -11,7 +11,7 @@ Messages to the creation container must start with only of the following ids
 * `0` - Defines a `create_instance` message
 * `1` - Defines a `get_channel` message
 
-## create_instance
+## `create_instance`
 Creates a new instance of a container. 
 
 | Fiels | Type | Description |
@@ -20,7 +20,7 @@ Creates a new instance of a container.
 |type   | uint32  | The type of container to create |
 |code   | bytes   | The code for the container to run |
 
-## get_channel
+## `get_channel`
 Creates a new channel to the creation service. The resulting port will be 
 returned on the response port.
 
