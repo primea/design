@@ -107,7 +107,7 @@ Gets a port referance from a given message
 * `index` **i32** which port to in the message to load. The same port cannot be loaded twice
 
 **Returns**
-* **i32**
+* **i32ref**
 
 ### send_message
 sends a message on a given port
