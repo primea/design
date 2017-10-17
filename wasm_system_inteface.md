@@ -64,7 +64,7 @@ Given the port's name this returns a refernce to the port.
 
 * **i32ref** - the referance to the port being unbounded
 
-### get_message_data_len
+### message_data_len
 Gets the number of bytes contain in the message's data payload
 
 **Parameters**
@@ -90,8 +90,8 @@ Add a port ref to a message
 * `port` **i32ref** - the referance to the port
 
 
-### get_message_port_len
-get the number of ports contained in the message
+### message_port_len
+Gets the number of ports contained in the message
 
 **Parameters**
 * `message` **i32ref** - the referance to the message
@@ -99,8 +99,8 @@ get the number of ports contained in the message
 **Returns**
 * **i32**
 
-### load_message_port_ref
-loads a port ref from the message
+### get_message_port_ref
+Gets a port referance from a given message
 
 **Parameters**
 * `message` **i32ref** - the referance to the message
@@ -126,7 +126,7 @@ test is an i32 is a valid ref or not
 * **i32**
 
 ### delete_ref
-deletes port or message refs 
+deletes a port or message refs 
 
 **Parameters**
 * `message` **i32ref**
